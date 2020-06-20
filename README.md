@@ -1,6 +1,6 @@
 # HAProxy and Nginx with Docker Swarm
 
-> *Environment with HAProxy and Nginx with Docker Swarm*
+*Environment with HAProxy and Nginx with Docker Swarm*
 
 ### How to provision and manage the environmet
 ```
