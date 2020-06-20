@@ -24,5 +24,5 @@
 > *This Dockerfile creates a HAProxy v1.8 container.*
 
 <p align="center">
-  <img width="150" height="150" src="https://cdn.haproxy.com/wp-content/uploads/2019/10/HAProxyDockerSwarm.png">
+  <img src="https://cdn.haproxy.com/wp-content/uploads/2019/10/HAProxyDockerSwarm.png">
 </p>
