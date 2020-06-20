@@ -13,6 +13,10 @@
 ```
 > *With this script you can change the number of replicas needed for your environment, according to demand.*
 
+### How to test stack
+
+> *Access your web browser with valid IP from your host*
+
 ### Other files
 ```
 # docker-stack.yaml
