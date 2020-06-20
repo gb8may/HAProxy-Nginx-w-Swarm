@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  haproxy:
+      image: haproxy:1.8
+      networks:
+        - test
+      ports:
+        - 80:80
+        - 443:443
+      volumes:
+        - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+  nginx:
+      image: nginx:latest
+      networks:
+        - test
+      volumes:
+        - ./index.html:/usr/share/nginx/html/index.html
+
+networks:
+  test:
+    driver: overlay
+    attachable: true
