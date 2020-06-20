@@ -5,12 +5,14 @@
 ### How to provision and manage the environmet
 ```
 # ./build-and-deploy.sh
-> *This script will create HAProxy and NGinx containers and the Stack called challenge.*
 ```
+> *This script will create HAProxy and NGinx containers and the Stack called challenge.*
+
 ```
 # ./auto-scaling.sh
-> *With this script you can change the number of replicas needed for your environment, according to demand.*
 ```
+> *With this script you can change the number of replicas needed for your environment, according to demand.*
+
 ### Other files
 
 $ ./docker-stack.yaml
